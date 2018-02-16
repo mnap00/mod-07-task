@@ -1,0 +1,41 @@
+$light: #ecf0f1;
+$dark: #34495e;
+$font-main: 24px;
+$font-header: 32px;
+
+@import "grid";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $dark;
+    color: $light;
+    margin: 0;
+    padding: 0;
+}
+ 
+%text-font {
+    font-size: $font-main;
+}
+ 
+%headers-font {
+    font-size: $font-header;
+}
+
+%align-center {
+    text-align: center;
+}
+
+.verse,
+.chorus {
+    @extend %text-font;
+    @extend %align-center;
+}
+
+h1,
+h2 {
+    @extend %headers-font;
+    @extend %align-center;
+}
