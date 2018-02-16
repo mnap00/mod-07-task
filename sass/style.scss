@@ -1,5 +1,6 @@
 $light: #ecf0f1;
 $dark: #34495e;
+$darker: #2c3e50;
 $font-main: 24px;
 $font-header: 32px;
 
@@ -16,6 +17,11 @@ body {
     padding: 0;
 }
  
+.container {
+    background-color: $darker;
+    border-radius: 10px;
+}
+
 %text-font {
     font-size: $font-main;
 }

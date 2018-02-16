@@ -1,11 +1,18 @@
 .container {
-    margin: 0 auto;
-    max-width: 1200px;
+    margin: 20px auto;
+    max-width: 900px;
     padding: 12px;
     width: 100%;
 }
 
+.clearfix:after {
+    clear: both;
+    content: " ";
+    display: block;
+}
+
 .row {
+    @extend .clearfix;
     margin: 0 -12px;
 }
 
