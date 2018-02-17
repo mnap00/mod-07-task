@@ -16,7 +16,7 @@ body {
     margin: 0;
     padding: 0;
 }
- 
+
 .container {
     background-color: $darker;
     border-radius: 10px;
@@ -25,7 +25,7 @@ body {
 %text-font {
     font-size: $font-main;
 }
- 
+
 %headers-font {
     font-size: $font-header;
 }
@@ -44,4 +44,8 @@ h1,
 h2 {
     @extend %headers-font;
     @extend %align-center;
+}
+
+.line {
+    background-color: $light;
 }
