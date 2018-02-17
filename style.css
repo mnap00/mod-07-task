@@ -87,7 +87,7 @@
 [class*=col] {
   float: left;
   min-height: 1px;
-  padding: 12px; }
+  padding: 0 12px; }
 
 * {
   box-sizing: border-box; }
@@ -114,5 +114,8 @@ h2 {
 .chorus, h1,
 h2 {
   text-align: center; }
+
+.line {
+  background-color: #ecf0f1; }
 
 /*# sourceMappingURL=style.css.map */
