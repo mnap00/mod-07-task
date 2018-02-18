@@ -1,0 +1,11 @@
+### COMMANDS FOR NODE PACKAGES ###
+# prepend all commands with `$ node_modules/.bin/'
+
+### autoprefixer-cli ###
+autoprefixer-cli style.css  # rewrite (overwrite) style.css with prefixes
+autoprefixer-cli -o style.prefixed.css style.css
+                            # write prefixes to style.prefixes.css
+                            # leaving style.css as is
+
+### nu-html-checker ###
+nu-html-checker *.html  # check all .html files in present folder
