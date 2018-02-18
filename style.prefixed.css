@@ -109,6 +109,7 @@ body {
 h1,
 h2 {
   font-size: 32px; }
+  display: -ms-flexbox;
   display: flex;
 
 .verse,
@@ -119,4 +120,4 @@ h2 {
 .line {
   background-color: #ecf0f1; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.prefixed.css.map */
