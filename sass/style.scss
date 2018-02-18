@@ -45,6 +45,7 @@ h2 {
     @extend %headers-font;
     @extend %align-center;
     display: flex;
+    justify-content: center;
 }
 
 .line {
