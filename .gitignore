@@ -1,6 +1,5 @@
-test.html
+.sass-cache/
 *.css.map
-.sass-cache
 
 # Logs
 logs
