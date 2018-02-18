@@ -1,22 +1,22 @@
 {
-  "name": "mod-07-learn-git",
+  "name": "mod-07-task",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test:html"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mnap00/mod-07-learn-git.git"
+    "url": "git+https://github.com/mnap00/mod-07-task.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mnap00/mod-07-learn-git/issues"
+    "url": "https://github.com/mnap00/mod-07-task/issues"
   },
-  "homepage": "https://github.com/mnap00/mod-07-learn-git#readme",
+  "homepage": "https://github.com/mnap00/mod-07-task#readme",
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
     "browser-sync": "^2.23.6",

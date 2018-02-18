@@ -109,12 +109,15 @@ body {
 h1,
 h2 {
   font-size: 32px; }
-  display: flex;
 
 .verse,
 .chorus, h1,
 h2 {
   text-align: center; }
+
+h1,
+h2 {
+  display: flex; }
 
 .line {
   background-color: #ecf0f1; }
